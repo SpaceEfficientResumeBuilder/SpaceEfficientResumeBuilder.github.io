@@ -1,5 +1,15 @@
 /* YOUR CUSTOM STYLES */
 
+html, body  {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-offwhite {
+    background-color: #EEEEEE;
+}
+
 .bg-serb {
     background-color: #3D5AFE;
 }
@@ -13,7 +23,6 @@
     position: absolute;
     z-index: 0;
     height: 100vh;
-    width: 100vw;
     overflow-y: hidden;
 }
 
@@ -21,4 +30,27 @@
     position: absolute;
     bottom: -250px;
     left: calc(50% - 512px);
+}
+
+.icon-container {
+    height: 100px;
+    width: 100px;
+    line-height: 125px;
+    background-color: #3D5AFE;
+    border-radius: 99em;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.icon-container > i{
+    font-size: 50px;
+    color: #EEEEEE;
+}
+
+.bg-lb {
+    background-color: #E8EAF6;
+}
+
+.footer {
+    height: 150px;
 }
