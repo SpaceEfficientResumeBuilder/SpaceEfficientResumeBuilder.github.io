@@ -36,7 +36,7 @@ html, body  {
     height: 100px;
     width: 100px;
     line-height: 125px;
-    background-color: #3D5AFE;
+    background-color: white;
     border-radius: 99em;
     text-align: center;
     vertical-align: bottom;
@@ -44,7 +44,6 @@ html, body  {
 
 .icon-container > i{
     font-size: 50px;
-    color: #EEEEEE;
 }
 
 .bg-lb {
@@ -53,4 +52,14 @@ html, body  {
 
 .footer {
     height: 150px;
+}
+
+.r-left {
+    border-top-left-radius: 1em !important;
+    border-bottom-left-radius: 1em !important;
+}
+
+.r-right {
+    border-top-right-radius: 1em !important;
+    border-bottom-right-radius: 1em !important;
 }
