@@ -19,11 +19,25 @@ html, body  {
     z-index: 5;
 }
 
-.img-container {
+.particles-container {
     position: absolute;
     z-index: 0;
     height: 100vh;
     overflow-y: hidden;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.img-container {
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#particles-js {
+    height: 100%;
+    width: 100%;
 }
 
 .img-container > img {
@@ -62,4 +76,17 @@ html, body  {
 .r-right {
     border-top-right-radius: 1em !important;
     border-bottom-right-radius: 1em !important;
+}
+
+.logo-img {
+    width: 200px;
+    height: auto;
+}
+
+.logo-container {
+    position: absolute;
+    bottom: 28%;
+    z-index: 10;
+    width: 98%;
+    margin: 0;
 }
